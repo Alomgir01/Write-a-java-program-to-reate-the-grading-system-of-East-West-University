@@ -1,0 +1,57 @@
+import java.util.Scanner;
+public class Main {
+public static void main(String[] args){
+Scanner input= new Scanner(System.in);
+System.out.print(&quot;Marks = &quot;);
+int marks = input.nextInt();
+if(marks&gt;=97 &amp;&amp; marks&lt;=100)
+{
+System.out.println(&quot;A+&quot;);
+}
+else if(marks&gt;=90 &amp;&amp; marks&lt;97)
+{
+System.out.println(&quot;A&quot;);
+}
+else if(marks&gt;=87 &amp;&amp; marks&lt;90)
+{
+System.out.println(&quot;A-&quot;);
+}
+else if(marks&gt;=83 &amp;&amp; marks&lt;87)
+{
+System.out.println(&quot;B+&quot;);
+}
+else if(marks&gt;=80 &amp;&amp; marks&lt;83)
+{
+System.out.println(&quot;B&quot;);
+}
+else if(marks&gt;=77 &amp;&amp; marks&lt;80)
+
+{
+System.out.println(&quot;B-&quot;);
+}
+else if(marks&gt;=73 &amp;&amp; marks&lt;77)
+{
+System.out.println(&quot;C+&quot;);
+}
+else if(marks&gt;=70 &amp;&amp; marks&lt;73)
+{
+System.out.println(&quot;C&quot;);
+}
+else if(marks&gt;=67 &amp;&amp; marks&lt;70)
+{
+System.out.println(&quot;C-&quot;);
+}
+else if(marks&gt;=63 &amp;&amp; marks&lt;67)
+{
+System.out.println(&quot;D+&quot;);
+}
+else if(marks&gt;=60 &amp;&amp; marks&lt;63)
+{
+System.out.println(&quot;D&quot;);
+}
+else if(marks&gt;=0 &amp;&amp; marks&lt;63)
+{
+System.out.println(&quot;F&quot;);
+}
+}
+}
